@@ -42,11 +42,6 @@ if (isset($_REQUEST['action'])) {
             listProduitsCategorie($_REQUEST['id']);
         }
     }
-    elseif ($_REQUEST['action'] == 'produitscategorie') {
-        require('controller/controllerProduit.php');
-            listProduitsCategorie($_REQUEST['id']);
-        }
-    }
 }
 // Si pas de paramètre charge l'accueil
 else {
